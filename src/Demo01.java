@@ -5,16 +5,22 @@ public class Demo01 {
         System.out.println(i);
         int a = 10;
         int b = 20;
-        a = a+b;
-        System.out.println("a"+a);
-        a+=b;
-        System.out.println("a"+a);
+        a = a + b;
+        System.out.println("a" + a);
+        a += b;
+        System.out.println("a" + a);
 
         String a1 = "hello";
         String b1 = " world";
-        a1 = b1+a1;
+        a1 = b1 + a1;
         System.out.println(a1);
         a1 += b1;
         System.out.println(a1);
+        Demo01 demo01 = new Demo01();
+        demo01.go();
+    }
+
+    public void go() {
+        System.out.println("go go go !");
     }
 }
